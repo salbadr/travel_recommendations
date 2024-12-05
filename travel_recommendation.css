@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+div.navigation {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+div.navigation .logo {
+    display: flex;
+}
+
+div.navigation .links {
+    margin: auto
+}
+
+div.navigation div.links ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+div.navigation div.links ul li{
+    padding: 10px;
+}
+
+div.navigation .search {
+    background: white;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 14px;
+}
+
+div.navigation .search input{
+    width:300px;
+    border:0px;
+
+}
