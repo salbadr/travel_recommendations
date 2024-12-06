@@ -69,3 +69,8 @@ div.navigation .search button{
     border: 0px;
     border-radius: 5px;
 }
+
+div.container{
+    height: 100vh;
+    background-image: url('./images/city.jpg');
+}
