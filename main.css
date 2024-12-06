@@ -38,6 +38,14 @@ div.navigation div.links ul li{
     padding: 10px;
 }
 
+div.navigation div.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+div.navigation div.links ul li a:hover{
+    text-decoration: underline;
+}
 div.navigation .search {
     background-color: white;
     margin: 5px;
@@ -54,7 +62,7 @@ div.navigation .search input:focus{
     outline:none;
 }
 div.navigation .search button{
-    background-color: #00aa72;
+    background-color: #00757d;
     padding:5px;
     color:white;
     margin: 0px 5px 0px 5px;
