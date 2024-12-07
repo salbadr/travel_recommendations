@@ -1,25 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    color: ghostwhite;
+    line-height: 20px;
+
 }
 
 div.navigation {
-  background-image: linear-gradient(to right, black , #545454);
-    color: white;
+    background-image: linear-gradient(to right, black, #545454);
     display: flex;
 }
 
 div.navigation .logo {
     display: flex;
     padding: 0px 5px 0px 5px;
+    align-items: center;
+
 }
 
-div.navigation h1{
-    margin: 7px 0px 7px 0px;
+div.navigation h1 {
+    margin:0px;
     font-style: italic;
 }
 
-div.navigation img{
+div.navigation img {
     width: 10%;
 }
 
@@ -31,21 +35,22 @@ div.navigation div.links ul {
     list-style: none;
     display: flex;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
-div.navigation div.links ul li{
+div.navigation div.links ul li {
     padding: 10px;
 }
 
-div.navigation div.links ul li a{
+div.navigation div.links ul li a {
     color: white;
     text-decoration: none;
 }
 
-div.navigation div.links ul li a:hover{
+div.navigation div.links ul li a:hover {
     text-decoration: underline;
 }
+
 div.navigation .search {
     background-color: white;
     margin: 5px;
@@ -53,24 +58,54 @@ div.navigation .search {
     padding: 5px;
 }
 
-div.navigation .search input{
-    width:300px;
-    border:0px;
+div.navigation .search input {
+    width: 300px;
+    border: 0px;
 }
 
-div.navigation .search input:focus{
-    outline:none;
+div.navigation .search input:focus {
+    outline: none;
 }
-div.navigation .search button{
+
+div.navigation .search button {
     background-color: #00757d;
-    padding:5px;
-    color:white;
+    padding: 5px;
+    color: white;
     margin: 0px 5px 0px 5px;
     border: 0px;
     border-radius: 5px;
 }
 
-div.container{
+div.container {
     height: 100vh;
     background-image: url('./images/city.jpg');
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+div.container .content {
+    margin: 0 10% 0 10%;
+}
+
+div.container .content h1.title {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: normal;
+
+}
+
+div.container .content p.intro {
+    width: 250px;
+}
+
+div.container .content button {
+    background-color: #00757d;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+
 }
