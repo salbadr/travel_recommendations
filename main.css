@@ -14,7 +14,7 @@ div.navigation {
 
 div.navigation .logo {
     display: flex;
-    padding: 0px 5px 0px 5px;
+    padding: 0px;
     align-items: center;
 
 }
@@ -55,7 +55,7 @@ div.navigation div.links ul li a:hover {
 
 div.navigation .search {
     background-color: white;
-    margin: 5px;
+    margin: auto;
     border-radius: 25px;
     padding: 5px;
 }
@@ -87,7 +87,8 @@ div.container {
 }
 
 div.container .content {
-    margin: 0 10% 0 10%;
+    margin: auto;
+    width: 80%;
 }
 
 div.container .content h1 {
@@ -107,14 +108,14 @@ div.container .content h1.title {
     width: 200px;
 }
 
-div.container .content p {
+div.container .content div.info {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 div.container .content p.intro {
     width: 250px;
-
 }
 
 div.container .content button {
@@ -159,3 +160,32 @@ div.container .content .team .card .job {
     font-size: 14px;
     margin-top: 10px;
 }
+
+div.container .content .contact_us{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container .content .form input {
+width: 100%;
+border-radius: 5px;
+background-color: transparent;
+outline: none;
+
+}
+
+div.container .content .form label {
+   margin: 10px 0px 10px 0px
+    }
+
+div.container .content .form textarea {
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    }
+
+div.container .content .form button {
+    width: 100%;
+   
+    }
