@@ -9,6 +9,7 @@ body {
 div.navigation {
     background-image: linear-gradient(to right, black, #545454);
     display: flex;
+    justify-content: left;
 }
 
 div.navigation .logo {
@@ -19,7 +20,7 @@ div.navigation .logo {
 }
 
 div.navigation h1 {
-    margin:0px;
+    margin: 0px;
     font-style: italic;
 }
 
@@ -28,7 +29,8 @@ div.navigation img {
 }
 
 div.navigation .links {
-    margin: auto
+    display: flex;
+    align-items: center;
 }
 
 div.navigation div.links ul {
@@ -88,16 +90,31 @@ div.container .content {
     margin: 0 10% 0 10%;
 }
 
-div.container .content h1.title {
-    width: 200px;
+div.container .content h1 {
     text-transform: uppercase;
     font-size: 60px;
     line-height: normal;
+}
 
+div.container .content h2 {
+    font-size: 50px;
+    line-height: normal;
+}
+
+
+
+div.container .content h1.title {
+    width: 200px;
+}
+
+div.container .content p {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
 }
 
 div.container .content p.intro {
     width: 250px;
+
 }
 
 div.container .content button {
@@ -107,5 +124,38 @@ div.container .content button {
     text-transform: uppercase;
     color: white;
     padding: 10px;
+}
 
+div.container .content .team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.container .content .team .card {
+    display: flex;
+}
+
+div.container .content .team .card .icon {
+    margin-right: 10px;
+}
+
+div.container .content .team .details {
+    padding: 10px 0px 10px 0px;
+}
+
+div.container .content .team .details span {
+    display: block
+}
+
+div.container .content .team .card .job {
+    background-color: #2b446d;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 10px;
 }
