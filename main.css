@@ -161,31 +161,38 @@ div.container .content .team .card .job {
     margin-top: 10px;
 }
 
-div.container .content .contact_us{
+div.container .content .contact_us {
     display: flex;
     justify-content: space-between;
 }
 
+div.container .content .form {
+    padding: 10px;
+}
+
 div.container .content .form input {
-width: 100%;
-border-radius: 5px;
-background-color: transparent;
-outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid grey;
 
 }
 
 div.container .content .form label {
-   margin: 10px 0px 10px 0px
-    }
+    margin: 5px 0px 5px 0px;
+    display: block;
+}
 
 div.container .content .form textarea {
     width: 100%;
     border-radius: 5px;
     background-color: transparent;
-    outline: none;
-    }
+    border: 1px solid grey;
+    resize: none;
+
+}
 
 div.container .content .form button {
     width: 100%;
-   
-    }
+    margin-top: 10px
+}
