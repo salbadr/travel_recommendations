@@ -100,7 +100,7 @@ div.container .content .home{
 
 #search_results {
     width: 50%;
-    padding: 20px 0px 0px 0px;
+    padding: 0px;
     max-height: 550px;
     overflow-y: hidden;
 }

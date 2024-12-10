@@ -6,6 +6,7 @@ submitForm.addEventListener('reset', clearResults);
 function clearResults(){
     const searchResults = document.getElementById('search_results');
     searchResults.innerHTML = '';
+    searchResults.style.overflowY = 'hidden';
 }
 
 function fetchRecommendations(event) {
