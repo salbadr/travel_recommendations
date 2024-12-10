@@ -80,16 +80,43 @@ div.navigation .search button {
 }
 
 div.container {
-    height: 100vh;
     background-image: url('./images/city.jpg');
+    min-height: 100vh;
     display: flex;
-    justify-content: start;
-    align-items: center;
+
 }
 
 div.container .content {
     margin: auto;
-    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#search_results {
+    width: 50%;
+    padding: 20px 0px
+}
+
+#search_results div {
+    background-color: white;
+    border-radius: 5px;
+    color: #545454;
+    margin: 10px 0px;
+    padding: 4px;
+}
+
+#search_results span {
+    color: black;
+}
+
+#search_results img {
+    width: 100%;
+}
+
+div.container .content .intro {
+    width: 30%;
 }
 
 div.container .content h1 {
@@ -103,21 +130,12 @@ div.container .content h2 {
     line-height: normal;
 }
 
-
-
-div.container .content h1.title {
-    width: 200px;
-}
-
 div.container .content .info {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin-bottom: 20px;
 }
 
-div.container .content p.intro {
-    width: 250px;
-}
 
 div.container .content button {
     background-color: #00757d;
