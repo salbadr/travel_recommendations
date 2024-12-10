@@ -91,10 +91,12 @@ div.container {
 
 div.container .content {
     margin: auto;
+}
+
+div.container .content .home{
     display: flex;
     justify-content: space-evenly;
 }
-
 
 #search_results {
     width: 50%;
@@ -151,6 +153,10 @@ div.container .content button {
     padding: 10px;
     cursor: pointer;
 }
+div.container .content .about_us{
+   max-width: 80%;
+   margin: auto;
+}
 
 div.container .content .team {
     display: flex;
@@ -193,6 +199,7 @@ div.container .content .contact_us {
 
 div.container .content form {
     padding: 10px;
+    width: 50%;
 }
 
 div.container .content form input {

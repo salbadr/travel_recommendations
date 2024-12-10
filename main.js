@@ -50,6 +50,7 @@ function handleTerms(list) {
     <img src="images/${imageUrl}" alt="${name}"/>
     <span><b>${name}</b></span>
     <p>${description}</p>
+    <button>Visit</button>
 `;
         div.innerHTML = result;
         searchResults.appendChild(div);
