@@ -76,6 +76,7 @@ div.navigation .search button {
     margin: 0px 5px 0px 5px;
     border: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 div.container {
@@ -108,7 +109,7 @@ div.container .content h1.title {
     width: 200px;
 }
 
-div.container .content div.info {
+div.container .content .info {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin-bottom: 20px;
@@ -125,6 +126,7 @@ div.container .content button {
     text-transform: uppercase;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 div.container .content .team {
@@ -166,33 +168,34 @@ div.container .content .contact_us {
     justify-content: space-between;
 }
 
-div.container .content .form {
+div.container .content form {
     padding: 10px;
 }
 
-div.container .content .form input {
+div.container .content form input {
     width: 100%;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid grey;
-
+    color: white;
 }
 
-div.container .content .form label {
+div.container .content form label {
     margin: 5px 0px 5px 0px;
     display: block;
 }
 
-div.container .content .form textarea {
+div.container .content form textarea {
     width: 100%;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid grey;
     resize: none;
+    color: white;
 
 }
 
-div.container .content .form button {
+div.container .content form button {
     width: 100%;
     margin-top: 10px
 }
